@@ -7,6 +7,8 @@
 }
 body {
     position: relative;
+    margin-bottom: 68px;
+   
 }
 a {
     text-decoration: none;
@@ -16,11 +18,14 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .header {
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-color: #fff;
+    z-index: 9;
 }
 .header__list {
     list-style: none;
@@ -45,10 +50,10 @@ a {
     background-image: url("../img/profile.svg");
 }
 .header__item--order::before {
-    background-image: url("../img/orders.svg");
+    background-image: url("../img/order.svg");
 }
 .header__item--home::before {
-    background-image: url("../img/profile.svg");
+    background-image: url("../img/home.svg");
 }
 .my-self {
     display: flex;
@@ -75,12 +80,19 @@ a {
 }
 .hello {
     margin-bottom: 5px;
+    color: #9c9c9c;
+}
+.search {
+    position: relative;
 }
 .search__fild {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     padding-left: 50px;
     border-radius: 5px;
+    background-color: #f8f4f4;
+    border: none;
+    display: block;
 }
 .search__label {
     position: relative;
@@ -89,4 +101,19 @@ a {
     position: absolute;
     top: 0;
     left: 15px;
+}
+.search__btn {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 6px;
+    right: 30px;
+}
+.popular__list {
+    display: flex;
+}
+.popular__item {
+    width: 300px;
+    margin-right: 20px;
+    overflow: hidden;
 }
