@@ -7,16 +7,16 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <header class="header container">
-            <nav class="header__nav">
+        <header class="header">
+            <nav class="container header__nav">
                 <ul class="header__list">
-                    <li class="header__item">
+                    <li class="header__item header__item--home">
                         <a class="header__item-link" href="#">Home</a>
                     </li>
-                    <li class="header__item">
+                    <li class="header__item header__item--order">
                         <a class="header__item-link" href="#">Orders</a>
                     </li>
-                    <li class="header__item">
+                    <li class="header__item header__item--profile">
                         <a class="header__item-link" href="#">Profile</a>
                     </li>
                 </ul>
@@ -34,10 +34,11 @@
             </div>
         </section>
         <div class="container search">
-            <label>
-                <img src="./img/search.svg" alt="search">
-                <input type="search" name="search" placeholder="search">
+            <label class="search__label">
+                <img class="search__img" src="./img/search.svg" alt="search">
+                <input class="search__fild" type="search" name="search" placeholder="Search">
             </label>
+            <button type="click"><img src="" alt=""></button>
         </div>
     </body>
 </html>     

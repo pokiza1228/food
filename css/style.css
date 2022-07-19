@@ -17,6 +17,11 @@ a {
     padding-right: 15px;
     margin: 0 auto;
 }
+.header {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 .header__list {
     list-style: none;
     display: flex;
@@ -31,11 +36,19 @@ a {
 .header__item::before {
     content: '';
     display: block;
-    background-image: url("../img/orders.svg");
     background-repeat: no-repeat;
     background-position: center center;
     width: 50px;
     height: 50px;
+}
+.header__item--profile::before {
+    background-image: url("../img/profile.svg");
+}
+.header__item--order::before {
+    background-image: url("../img/orders.svg");
+}
+.header__item--home::before {
+    background-image: url("../img/profile.svg");
 }
 .my-self {
     display: flex;
@@ -62,4 +75,18 @@ a {
 }
 .hello {
     margin-bottom: 5px;
+}
+.search__fild {
+    width: 100%;
+    padding: 5px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+.search__label {
+    position: relative;
+}
+.search__img {
+    position: absolute;
+    top: 0;
+    left: 15px;
 }
