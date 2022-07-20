@@ -8,7 +8,7 @@
 body {
     position: relative;
     margin-bottom: 68px;
-   
+    font-family: sans-serif;
 }
 a {
     text-decoration: none;
@@ -24,7 +24,7 @@ a {
     position: fixed;
     width: 100%;
     bottom: 0;
-    border-color: #fff;
+    background-color: #FFFFFF;
     z-index: 9;
 }
 .header__list {
@@ -111,9 +111,55 @@ a {
 }
 .popular__list {
     display: flex;
+    list-style: none;
+
 }
 .popular__item {
-    width: 300px;
+    width: 228px;
     margin-right: 20px;
-    overflow: hidden;
+    position: relative;
+}
+.popular__img {
+    border-radius: 15px;
+    display: block;
+}
+.popular__list-title {
+    font-size: 18px;
+    color: rgba(31, 41, 55, 1);
+    padding: 10px;
+}
+.popular__text {
+    color: rgba(31, 41, 55, 1);
+    padding: 10px;
+}
+.popular-btn {
+    position: absolute;
+    background-color: #FFFFFF;
+    z-index: 2;
+    top: 20px;
+    right: 18px;
+}
+.see-popular {
+    border: none;
+    background-color: transparent;
+    color: rgba(50, 183, 104, 1);
+    font-weight: 600;
+}
+.title-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.product__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product__item {
+    width: 175px;
+    margin-right: 20px;
+    position: relative;
 }
