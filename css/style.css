@@ -187,7 +187,7 @@ svg {
     padding: 10px;
 }
 .popular__text {
-    color: rgba(31, 41, 55, 1);
+    color: #32B768;
     padding: 10px;
 }
 .popular__item:last-child {
@@ -247,5 +247,40 @@ svg {
 }
 .fild-radio:checked +span {
     color: #FFFFFF;
+    background-color: #32B768;
+}
+.img-products {
+    display: flex;
+
+}
+.img-product {
+    margin-right: 15px;
+}
+.img-product:last-child {
+    margin-right: 0;
+}
+.btns {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 15px;
+}
+.btn-corusel {
+    border: none;
+    background-color: #9CA3AF;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    display: block;
+}
+.btns-item {
+    margin-right: 5px;
+}
+.btns-item:last-child {
+    margin-right: 0;
+}
+.btn-active {
+    width: 25px;
+    border-radius: 10px;
     background-color: #32B768;
 }
