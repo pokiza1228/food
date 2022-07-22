@@ -182,13 +182,15 @@ svg {
     display: block;
 }
 .popular__list-title {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
     color: rgba(31, 41, 55, 1);
     padding: 10px;
 }
 .popular__text {
     color: #32B768;
     padding: 10px;
+    font-weight: 600;
 }
 .popular__item:last-child {
     margin-right: 0;
@@ -368,4 +370,21 @@ svg {
     width: 200px;
     border-radius: 15px;
 }
-
+.star {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.star-img {
+    margin-right: 10px;
+}
+.imgs-card {
+    position: relative;
+}
+.card-to {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: none;
+    background-color: transparent;
+}

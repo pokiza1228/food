@@ -7,7 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <section class="container">
+        <section class="container imgs-card">
             <div class="img-products">
                 <img class="img-product" src="./img/my-self.jpg" height="428" width="428" alt="title">
                 <img class="img-product" src="./img/my-self.jpg" height="428" width="428" alt="title">
@@ -32,20 +32,22 @@
                     <button class="btn-corusel" type="click"></button>
                 </li>
             </ol>
+            <a class="card-to" href="./index.html"><img src="./img/strelka.svg" alt="orqaga"></a>
         </section>
         <section class="container card">
             <div class="title-card">
                 <h2>Title</h2>
                 <button class="my-self__btn" type="click"><img src="./img/like.svg" alt="qo'ng'iroq"></button>
             </div>
+            <p class="star"><img class="star-img" src="./img/like.svg" alt="star">5</p>
             <h3 class="description-card">Describtion</h3>
             <p class="text-card">Please check your email for create a new password  Pl ease check your email f or create a ne w password Pl ease check your email for create a new password Please check your email for create a new passw ordP lease check your email for create a new password Please check your email for create a new password</p>
             <div class="cound">
                 <h2>Quality</h2> 
                 <div class="cound-btns">
-                    <button class="cound-btn" type="click">-</button>
-                    <p class="count-text">2</p>
-                    <button class="cound-btn" type="click">+</button>
+                    <button id="minus" class="cound-btn" type="click">-</button>
+                    <p class="count-text">0</p>
+                    <button id="plus" class="cound-btn" type="click">+</button>
                 </div>
             </div>  
            <div class="price-card">
@@ -56,5 +58,8 @@
                 <button class="price-btn">Add to Card</button>
            </div>
         </section>
+
+
+        <script src="./js/main.js"></script>
     </body>
 </html>
