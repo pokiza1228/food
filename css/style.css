@@ -73,6 +73,9 @@ body {
 a {
     text-decoration: none;
 }
+button {
+    cursor: pointer;
+}
 .container {
     width: 458px;
     padding-left: 15px;
@@ -169,13 +172,14 @@ svg {
 }
 .popular__list {
     display: flex;
+    transition: 0.5s ease-in-out;
+    transform: translateX(0);
     list-style: none;
-
 }
 .popular__item {
-    width: 228px;
     margin-right: 20px;
     position: relative;
+    
 }
 .popular__img {
     border-radius: 15px;

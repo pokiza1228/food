@@ -1,15 +1,3 @@
-const minus=document.querySelector('#minus')
-const plus=document.querySelector('#plus')
-const textCount=document.querySelector('.count-text')
-
-plus.addEventListener('click',()=>{
-    textCount.textContent=Number(textCount.textContent)+1
-})
-minus.addEventListener('click',()=>{
-    if(Number(textCount.textContent)>0) {
-        textCount.textContent=Number(textCount.textContent)-1
-    }
-})
 const slider=document.querySelector('.popular__list')
 const btn1=document.querySelector('.btn1')
 const btn2=document.querySelector('.btn2')
@@ -32,7 +20,7 @@ btn1.addEventListener('click',()=>{
     
 })
 btn2.addEventListener('click',()=>{
-    slider.style.transform="translateX(-444px)"
+    slider.style.transform="translateX(-453px)"
     btn2.classList.add('btn-active')
     btn3.className="btn-corusel btn3"
     btn4.className="btn-corusel btn4"
@@ -40,7 +28,7 @@ btn2.addEventListener('click',()=>{
     
 })
 btn3.addEventListener('click',()=>{
-    slider.style.transform="translateX(-886px)"
+    slider.style.transform="translateX(-901px)"
     btn3.classList.add('btn-active')
     btn4.className="btn-corusel btn4"
     btn2.className="btn-corusel btn2"
