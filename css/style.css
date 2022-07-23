@@ -392,3 +392,58 @@ svg {
     border: none;
     background-color: transparent;
 }
+/* profile-header */
+.profile-header {
+    /* text-align: center; */
+    /* padding: 2rem 0; */
+  }
+  .profile-header_top {
+    margin: 1rem 0;
+  }
+  .profile-header_top i {
+    font-size: 2rem;
+    display: inline-block;
+    color: #32b768;
+  }
+  .profile-header_top h1 {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  .profile-header_bottom {
+    text-align: center;
+  }
+  .profile-header_bottom img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .profile-header_bottom h1 {
+    margin-bottom: 1rem;
+  }
+  .profile-header_bottom p {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  /* profile-main */
+  .profile-main ul {
+    margin: 2rem 0;
+  }
+  .profile-main ul li {
+    padding: 20px 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    gap: 10px;
+  }
+  .profile-main ul li i {
+    text-align: right;
+    font-size: 20px;
+    /* padding-right: 20px; */
+  }
+  /* .profile-main ul li i {
+      display: inline-block;
+  }
+  .profile-main ul li p {
+      display: inline-block;
+  } */
